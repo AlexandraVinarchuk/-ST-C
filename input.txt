@@ -1,0 +1,38 @@
+var
+    a: int;
+    b: int := 30;
+    c: int;
+    d: int := 0;
+    e: int;
+    f: int;
+end_var
+a := 1 + 2;
+b := 1 + 2 - 3;
+c := a + 1;
+d := c;
+e := 30;
+f := a > b;
+if a > 2 then
+    b := 30;
+    a := a + b;
+end_if;
+if b <> 3 then
+    a := 3;
+end_if;
+if a + 1 <= 3 + 4 then
+    c := a + 1;
+end_if;
+if a + 2 = 71 then
+    d := a + 3;
+end_if;
+if 23 <= d + c then
+    c := a + 1;
+end_if;
+if 10 <= e + f <= 100 then
+    c := a + 50;
+end_if;
+if b < a then
+    a := b;
+else
+    b := a;
+end_if;
